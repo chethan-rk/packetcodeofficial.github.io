@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<TITLE>Register on Indian Railways</TITLE>
+<link rel="stylesheet" href="register.css">
+<style>
+#register_form	{
+	background-color: rgba(0, 0, 0, 0.308);
+	width: 30%;
+	height: 75%;
+	margin: auto;
+	border-radius: 25px;
+	
+	margin-top: 45px;
+
+	
+}
+</style>
+</HEAD>
+<BODY background="img/bg5.jpg">
+
+	<div class="header">
+		<div class="header-right">
+		 <a class="active" href="index.html">Home</a>
+		 <a  href="login.html">login</a>
+		 <a  href="https://www.railyatri.in/live-train-status">find my train</a>
+		 <a  href="http://www.indianrailways.gov.in/">About</a>
+	   </div>
+	 </div>
+
+	 <div class="zoom" >
+	 <div id="register_form" align="center" height="200" width="200">
+	 <FORM name="register" method="post" action="login.html" onsubmit="return validate()">
+	 <TABLE border="0">
+	 <CAPTION><FONT size="4" color="WHITE"><br/>Enter your details:</FONT></CAPTION>
+	 <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+	 <TR class="left">
+	 <TD><FONT size="4" color="WHITE">First name:</FONT></TD>
+	 <TD><INPUT name="fname" type="TEXT" placeholder="Enter your first name" size="30" maxlength="30" align="center" id="fname"></TD>
+	 </TR><tr></tr><tr></tr>
+	 <TR class="left">
+	 <TD><FONT size="4" color="WHITE">Last name:</FONT></TD>
+	 <TD><INPUT type="TEXT" name="lname" align="center" size="30" maxlength="30" placeholder="Enter your last name" id="lname"></TD>
+	 </TR><tr></tr><tr></tr>
+	 <TR class="left">
+	 <TD><FONT size="4" color="WHITE">Age:</FONT></TD>
+	 <TD><INPUT type="TEXT" name="age" align="center" size="30" maxlength="3" placeholder="Enter age" id="age"></TD>
+	 </TR><tr></tr><tr></tr>
+	 <TR class="left">
+	 <TD><FONT size="4" color="WHITE">Mobile Number:</FONT></TD>
+	 <TD><INPUT type="TEXT" name="mob" size="30" maxlength="10" placeholder="Enter your mobile number" id="mob"></TD>
+	 </TR><tr></tr><tr></tr>
+	 <TR class="left">
+	 <TR class="left">
+	 <TD><FONT size="4" color="WHITE">Gender:</FONT></TD>
+	 <TD>&nbsp;&nbsp;
+	 <INPUT type="radio" name="gender" value="Male" align="center" id="gender">Male
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <input type="radio" name="gender" value="Female" align="center" id="gender">Female
+	 </TD>
+	 </TR><tr></tr><tr></tr>
+	 <TR class="left">
+	 <TD><FONT size="4" color="WHITE">E-Mail ID:</FONT></TD>
+	 <TD><INPUT name="email" type="TEXT" id="email" placeholder="Enter your E-Mail ID" size="30" maxlength="30"></TD>
+	 </TR><tr></tr><tr></tr>
+	 <TR class="left">
+	 <TD><FONT size="4" color="WHITE">Password:</FONT></TD>
+	 <TD><INPUT type="PASSWORD" name="pw" size="30"  id="pw"></TD>
+	 </TR><tr></tr><tr></tr>
+	 <TR class="left">
+	 <TD><FONT size="4" color="WHITE">Confirm Password:</FONT></TD>
+	 <TD><INPUT type="PASSWORD" name="cpw" size="30" id="cpw"></TD>
+	 </TR><tr></tr><tr></tr><tr></tr><tr></tr>
+	 <tr></tr><tr></tr><tr></tr>
+	 </TABLE>
+	 
+<form action="login.html">
+	 <button onclick="myFunction()">submit</button>
+
+<script>
+function myFunction() {
+  alert("sign in succesfull");
+}
+</script>
+	 </FORM>
+
+	 <FORM action="login.html">
+	 <P align="CENTER" id="logintext"><FONT size="4" color="white" face="Arial">
+	 Already have an account with us?<BR/></FONT></FONT>
+	 <INPUT TYPE="submit" value="Login" id="login" class="button">
+	 </P>
+	</div>
+	 </FORM></div>
+	 </BODY>
+	 </HTML>
+
+	
